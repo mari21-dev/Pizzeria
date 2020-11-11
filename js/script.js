@@ -240,3 +240,8 @@ completedListIngredients.forEach((element) => {
     });
   });
 });
+
+const btnRegistration = document.querySelector(".btn-registration");
+btnRegistration.addEventListener("click", () => {
+  alert("Ваш заказ оформлен");
+});
